@@ -1,0 +1,349 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar {
+    width: 100%;
+    /* margin-top: -6px; */
+    padding: 20px;
+
+
+    #navbarSupportedContent {
+        * {
+            font-size: 18px;
+            color: black;
+        }
+
+        ul>li>a:hover {
+            color: blue;
+        }
+    }
+}
+
+#btn {
+    padding: 7px 35px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border: 1px blue solid;
+    border-radius: 5px;
+}
+#btn1{
+    padding: 8px 30px 8px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 50px 50px 300px 0px;
+    width: 100%;
+    background-image: url(https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg);
+    background-position: center;
+    #door {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 40px;
+
+
+        #your {
+            font-size: 40px;
+            color: white;
+        }
+
+        #now {
+            font-size: 25px;
+            color: gray;
+        }
+
+        #button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            #book {
+                font-size: 20px;
+                padding: 15px 10px;
+                background-color: red;
+                color: white;
+                border-radius: 10px;
+                border: none;
+            }
+
+            #explore {
+                font-size: 20px;
+                padding: 15px 10px;
+                background-color: white;
+                color: rgb(39, 39, 239);
+                border-radius: 10px;
+                border: none;
+            }
+        }
+
+        #next {
+            font-size: 19px;
+            color: orange;
+        }
+    }
+
+    #door1 {
+        
+        gap: 20px;
+        box-shadow: 0px 5px 25px gray;
+        background-color: white;
+        padding: 15px 40px;
+        border-radius: 7px;
+        height:400px;
+        overflow:scroll;
+        #book {
+            font-size: 45px;
+        }
+
+        #input {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 20px;
+            #name {
+                font-size: 20px;
+                width: 500px;
+                padding: 18px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+
+            #email {
+                font-size: 20px;
+                width: 500px;
+                padding: 18px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+        }
+
+        #select {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 30px;
+            margin: 20px -40px 0px -40px;
+            #cars {
+                font-size: 20px;
+                padding: 15px 5px;
+                border-radius: 5px;
+                width: 80px;
+                border: 1px gray solid;
+                margin: 20 -20px 0px -70px;
+
+            }
+
+            #phone {
+                font-size: 20px;
+                width: 420px;
+                padding: 15px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+        }
+
+        #continue {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:start;
+            gap: 10px;
+            #con {
+                font-size: 20px;
+                padding: 6px 15px;
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+                border: none;
+            }
+            #limited {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #fa {
+                    color: red;
+                    padding-top: 5px;
+                    font-size: 30px;
+                }
+
+                #seat {
+                    color: red;
+                    padding-top: 6px;
+                }
+            }
+        }
+
+        #already {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+            #have{
+                font-size: 20px;
+                color:gray;
+            }
+            #htt{
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+        #by{
+            color:gray;
+        }
+    }
+}
+#fieldset{
+    border: 1px solid black;
+
+}
+#cards{
+    margin:-200px 190px 0px 190px;
+    background-color:white;
+    box-shadow:5px grey;
+    border: 1px solid aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+    border-radius: 5px;
+    gap:20px;
+}
+#ctext{
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#pcard{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin: 10px;
+
+}
+#p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:palevioletred;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#p3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:greenyellow;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#p4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aquamarine;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#p5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:burlywood;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#p6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:violet;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#t1{
+    font-size: 25px;
+    color: white;
+}
+#do{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    margin: 10px;
+    margin:50px 190px 0px 190px;
+    margin-bottom: 20px;
+
+}
+#doo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    padding:10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    gap: 10px;
+}
+#tt{
+    font-size: 30px;
+    color: black;
+}
+#ttt{
+    font-size: 15px;
+    color: grey;
+    font-style:bold;
+}
+#do1{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin: 10px;
+    margin:50px 350px 0px ;
+    margin-bottom: 20px;
+
+}
